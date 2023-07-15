@@ -1,0 +1,32 @@
+.button {
+  background-color: green; 
+  border-radius: 10px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: lightgreen;
+  color: white;
+}
+
+.button a{
+  color: black;
+  text-decoration: none;
+}
+
+.navigation {
+  background-color: rgb(185, 146, 112);
+  width: 15em;
+  position: fixed;
+  top: 4em;
+  right: 0;
+  padding-bottom: 2em;
+  padding-left: 2.5em;
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+}
