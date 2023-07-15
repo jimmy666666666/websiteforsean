@@ -1,17 +1,16 @@
 .button {
   background-color: green; 
-  border-radius: 10px;
+  border-radius: 0.5em;
   color: black;
-  padding: 15px 32px;
+  padding: 0.8em 1.5em;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1.1em;
 }
 
 .button:hover {
   background-color: lightgreen;
-  color: white;
 }
 
 .button a{
@@ -20,13 +19,30 @@
 }
 
 .navigation {
-  background-color: rgb(185, 146, 112);
-  width: 15em;
+  background-color: brown;
   position: fixed;
   top: 4em;
   right: 0;
   padding-bottom: 2em;
-  padding-left: 2.5em;
+  padding-left: 1em;
   border-top-left-radius: 1em;
   border-bottom-left-radius: 1em;
+}
+
+.nav_item {
+  color: black;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: bold;
+  padding: 1em;
+  border-radius: 0.5em;
+}
+
+.nav_item:hover {
+  background-color: crimson;
+}
+
+.nav_item a{
+	color: white;
+	text-decoration: none;
 }
